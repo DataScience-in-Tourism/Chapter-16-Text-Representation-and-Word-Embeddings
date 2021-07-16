@@ -11,7 +11,15 @@ Roman Egger - Salzburg University of Applied Sciences, Innovation and Management
 Today, a vast amount of unstructured text data is consistently at our disposal. Owing to the rapid increase in user-generated content on the one hand and powerful, ready-to-use machine learning algorithms on the other hand, automated text analysis can now be carried out in a way that would have been unimaginable a few years ago. However, in order to be able to analyze textual data further, it first becomes necessary to extract features and transform the text into numerical values which is required by many algorithms. As such, this chapter will present the basics of vectorizing text, beginning with the most simple approaches of text representation and increasing in complexity and performance as each subsequent algorithm is presented. The aim of this chapter is, thus, to convey the intuition behind each approach in a straightforward manner and to focus on the elements that are relevant for practical application.
 
 -----------------------
-In this Jupyter Notebook, we will use a number of techniques to create word vectors. We start with One Hot Encoding and Bag of Words, will apply TF-IDF and move on to more complex and powerful techniques like Word2Vec, Fasttext, Glove, ELMO and BERT
+
+In this Jupyter Notebooks, we will show how to vectorize your text-data using: 
+* Latent Dirichlet Allocation (LDA)
+* None- Negative Matrix Factorizaton (NMF) 
+* Correlation Expanation CorEX
+* Top2Vec
+* BERTopic
+
+The dataset we will use to extract topics from was crawled by the author and contains 2890 descriptions of airbnb-Experiences from the following European cities: Amsterdam, Athens, Berlin, Brussels, Copenhagen, Helsinki, London, Madrid, Oslo, Paris, Prague, Rome, Stockholm, Viwenna and Warsaw.
 
 ### Environment Setup
 
@@ -31,7 +39,7 @@ source .env/bin/activate
 # Install the dependencies.
 pip install -r requirements.txt
 
-# Install the dependencies from requirements_pinned.txt to use the same versions a in this notebook
+# install the dependencies according the requirements_pinned.txt if you want to us the same library versions
 
 # Use your preferred IDE in order to run the notebooks
 ```
