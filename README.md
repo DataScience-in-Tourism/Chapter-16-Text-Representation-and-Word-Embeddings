@@ -39,5 +39,7 @@ source .env/bin/activate
 # Install the dependencies.
 pip install -r requirements.txt
 
+# install the dependencies according the requirements_pinned.txt if you want to us the same library versions
+
 # Use your preferred IDE in order to run the notebooks
 ```
