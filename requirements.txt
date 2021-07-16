@@ -1,0 +1,13 @@
+gensim
+glove_python_binary
+matplotlib
+nlp
+nltk
+numpy
+pandas
+pytorch_transformers
+scikit_learn
+spacy
+tensorflow
+tensorflow_hub
+torch
