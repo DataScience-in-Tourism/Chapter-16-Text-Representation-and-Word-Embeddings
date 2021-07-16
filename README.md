@@ -35,3 +35,4 @@ pip install -r requirements.txt
 
 # Use your preferred IDE in order to run the notebooks
 ```
+[See my LinkedIn Profile](https://www.linkedin.com/in/prof-dr-roman-egger-b645601/)
