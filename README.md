@@ -4,7 +4,7 @@
 ***Author***
 Roman Egger - Salzburg University of Applied Sciences, Innovation and Management in Tourism
 
-![paris.jpg](https://github.com/DataScience-in-Tourism/Chapter-18-Topic-Modeling/blob/main/data/paris.jpg)
+![text.png](https://github.com/DataScience-in-Tourism/Chapter-16-Text-Representation-and-Word-Embeddings/blob/main/text.png)
 
 ### Abstract
 
