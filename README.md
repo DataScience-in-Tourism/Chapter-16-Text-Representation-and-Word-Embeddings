@@ -12,14 +12,7 @@ Today, a vast amount of unstructured text data is consistently at our disposal. 
 
 -----------------------
 
-In this Jupyter Notebooks, we will show how to vectorize your text-data using: 
-* Latent Dirichlet Allocation (LDA)
-* None- Negative Matrix Factorizaton (NMF) 
-* Correlation Expanation CorEX
-* Top2Vec
-* BERTopic
-
-The dataset we will use to extract topics from was crawled by the author and contains 2890 descriptions of airbnb-Experiences from the following European cities: Amsterdam, Athens, Berlin, Brussels, Copenhagen, Helsinki, London, Madrid, Oslo, Paris, Prague, Rome, Stockholm, Viwenna and Warsaw.
+In this Jupyter Notebook, we will use a number of techniques to create word vectors. We start with One Hot Encoding and Bag of Words, will apply TF-IDF and move on to more complex and powerful techniques like Word2Vec, Fasttext, GloVe, ELMO and BERT
 
 ### Environment Setup
 
@@ -38,6 +31,9 @@ source .env/bin/activate
 
 # Install the dependencies.
 pip install -r requirements.txt
+
+# Install dependencies with my versions
+pip install -r requirements_pinned.txt
 
 # install the dependencies according the requirements_pinned.txt if you want to us the same library versions
 
