@@ -1,8 +1,10 @@
 # Chapter 16: Text Representation and Word Embeddings
+
+## Vectorizing textual data
 ## http://www.datascience-in-tourism.com/
 
-***Author***
-Roman Egger - Salzburg University of Applied Sciences, Innovation and Management in Tourism
+***Roman Egger***
+* Salzburg University of Applied Sciences, Innovation and Management in Tourism
 
 ![text.png](https://github.com/DataScience-in-Tourism/Chapter-16-Text-Representation-and-Word-Embeddings/blob/main/text.png)
 
